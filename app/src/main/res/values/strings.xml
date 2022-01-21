@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Bookodemia</string>
+    <string name="iniciar_sesion">iniciar sesión</string>
+    <string name="registrate">¿Todavía no tienes cuenta? Regístrate</string>
+    <string name="bienvenido">¡Bienvenido!</string>
+    <string name="correo">Correo</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="texto_registro">Estas a unos cuantos pasos de vivir la mejor experiencia</string>
+    <string name="regresar">Regresar</string>
+    <string name="crear_cuenta">crear cuenta</string>
+    <string name="registrate_title">Registra tu información</string>
+    <string name="usuario">Usuario</string>
+    <string name="confirmar_contrasena">Confirmar Contraseña</string>
+    <string name="hola">Hola</string>
+    <string name="nombre_usuario">FerLima</string>
+    <string name="texto_home_populares">Más populares</string>
+    <string name="libros">Libros</string>
+    <string name="categorias">Categorías</string>
+    <string name="autores">Autores</string>
+    <string name="recien_agregados">Recién agregados</string>
+    <string name="lista">Lista</string>
+    <string name="home">home</string>
+    <string name="titulo">Titulo</string>
+    <string name="by_autor">by Autor</string>
+    <string name="categoria">Categoría</string>
+    <string name="lorem_ipsum">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</string>
+</resources>
