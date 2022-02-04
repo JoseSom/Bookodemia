@@ -11,17 +11,49 @@
     <string name="registrate_title">Registra tu información</string>
     <string name="usuario">Usuario</string>
     <string name="confirmar_contrasena">Confirmar Contraseña</string>
+    <string name="lista">Lista</string>
+    <string name="home">home</string>
+
+    <!-- Metodos de API -->
+    <string name="api_login">login</string>
+    <string name="api_libros">books</string>
+    <string name="api_libros_author_categories">books?include=authors,categories</string>
+    <string name="api_logout">logout</string>
+    <string name="api_registro">register</string>
+
+    <!-- Shared Preferences -->
+    <string name="name_file_preferemces">com.example.bookodemia.sharedpreferences</string>
+
+    <!-- Keys de API-->
+    <string name="key_token">plain-text-token</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+
+    <!-- Strings item book -->
+    <string name="tv_item_book_title">%s</string>
+
+    <!-- Strings activity detalles -->
+    <string name="tv_detalles_title_book">%s</string>
+    <string name="tv_detalles_nombre_autor">%s</string>
+    <string name="tv_detalles_mas_titulos_autor">Más títulos del autor</string>
+    <string name="tv_detalles_descripcion_libro">Descripcion</string>
+    <string name="tv_detalles_detalles_libro">Detalles</string>
+    <string name="tv_detalles_autor">%s</string>
+    <string name="tv_detalles_categoria">%s</string>
+    <string name="tv_detalles_contenido_autor">%s</string>
+    <string name="tv_detalles_cardview_2">%s</string>
+
+    <!-- Strings activity home -->
+    <string name="tv_home_nombre_usuario">%s</string>
     <string name="hola">Hola</string>
-    <string name="nombre_usuario">FerLima</string>
     <string name="texto_home_populares">Más populares</string>
     <string name="libros">Libros</string>
     <string name="categorias">Categorías</string>
     <string name="autores">Autores</string>
     <string name="recien_agregados">Recién agregados</string>
-    <string name="lista">Lista</string>
-    <string name="home">home</string>
-    <string name="titulo">Titulo</string>
-    <string name="by_autor">by Autor</string>
-    <string name="categoria">Categoría</string>
-    <string name="lorem_ipsum">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</string>
+
+    <!-- Errores -->
+    <string name="error_internet">Ups! no estas conectado a internet</string>
+    <string name="error_input_isempty">Campo vacio</string>
+    <string name="error_email_noformat">Correo no valido</string>
+
 </resources>

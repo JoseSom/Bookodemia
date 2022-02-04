@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-android-extensions'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '1.6.10'
 }
 
 android {
@@ -9,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.bookodemia"
-        minSdk 21
+        minSdk 23
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -40,8 +41,18 @@ dependencies {
     /*MATERIAL DESIGN 3*/
     implementation 'com.google.android.material:material:1.6.0-alpha01'
 
+    //SEGURIDAD
+    implementation "androidx.security:security-crypto:1.0.0"
+
     /**GLIDE*/
     implementation 'com.github.bumptech.glide:glide:4.12.0'
+
+    //API REST
+    implementation 'com.android.volley:volley:1.1.1'
+
+    //SERIALIZATION
+    implementation 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2'
+    implementation 'com.google.code.gson:gson:2.8.9'
 
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
     testImplementation 'junit:junit:4.+'

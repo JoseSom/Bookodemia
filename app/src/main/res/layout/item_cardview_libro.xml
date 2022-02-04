@@ -19,7 +19,6 @@
             android:id="@+id/iv_card_libro"
             android:layout_width="100dp"
             android:layout_height="100dp"
-
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -34,7 +33,7 @@
             android:layout_marginHorizontal="24dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="28dp"
-            android:text="@string/titulo"
+            tools:text="Titulo"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold"
@@ -42,12 +41,12 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView_estado_koder"
+            android:id="@+id/tv_card_autor"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="12dp"
-            android:text="@string/by_autor"
+            tools:text="By autor"
             android:textColor="@color/text_cards"
             android:textSize="12sp"
             app:layout_constraintStart_toEndOf="@+id/iv_card_libro"
@@ -59,14 +58,16 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="12dp"
-            android:text="@string/categoria"
+            tools:text="Categoria"
             android:textColor="@color/text_cards"
             android:textSize="12sp"
             app:layout_constraintStart_toEndOf="@+id/iv_card_libro"
-            app:layout_constraintTop_toBottomOf="@+id/textView_estado_koder" />
+            app:layout_constraintTop_toBottomOf="@+id/tv_card_autor" />
 
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:focusable="true"
+            android:clickable="true"
             android:id="@+id/fab_card_detalles"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -75,7 +76,10 @@
             app:backgroundTint="@color/primaryColor"
             app:fabSize="mini"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@drawable/ic_chevron_right"
+            app:tint="@color/white"
+            tools:ignore="SpeakableTextPresentCheck" />
 
 
         <ImageView
@@ -84,7 +88,7 @@
             android:layout_height="15dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="8dp"
-            tools:src="@drawable/ic_heart"
+            tools:srcCompat="@drawable/ic_heart"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:tint="@color/primaryColor" />
@@ -94,7 +98,7 @@
             android:layout_height="15dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            tools:src="@drawable/ic_share_alt"
+            tools:srcCompat="@drawable/ic_share_alt"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/imageView4"
             app:tint="@color/primaryColor" />
